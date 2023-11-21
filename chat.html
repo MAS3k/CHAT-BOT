@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chat.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>CHATBOT</h1>
+    </header>
+    <div class="chat-container">
+      <div class="message bot-message">
+        Chatbot: Hi there! How can I assist you?
+        <div id="time" class="timestamp"></div>
+      </div>
+    </div>
+    <div class="inputBox">
+      <input
+        class="input"
+        type="text"
+        id="user-input"
+        placeholder="Type your message"
+      />
+      <button class="btn" onclick="sendMessage()">
+        <img src="rocket-512.webp" alt="" />
+      </button>
+    </div>
+    <script src="chat.js"></script>
+  </body>
+</html>

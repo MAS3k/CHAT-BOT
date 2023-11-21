@@ -1,0 +1,20 @@
+ * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+.maincontainer{
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn1{
+    background-color: pink;
+    color: purple;
+    padding: 20px 40px;
+} 
